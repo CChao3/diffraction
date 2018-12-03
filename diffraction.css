@@ -1,0 +1,32 @@
+body {
+	font-family: "Verdana", sans-serif;
+}
+
+body.blackground{
+	background-color: black;
+	color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+	text-indent: 50px;
+}
+	
+.black{
+	color: black;
+}
+
+.white{
+	color: white;
+}
+	
+.gray{
+	color: gray;
+}
+
+.code{
+	font-family: "Lucida Console", monocode;
+}

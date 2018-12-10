@@ -4,47 +4,140 @@
 <link rel="stylesheet" type="text/css" href="diffraction.css">
 </head>
 <body>
-<h2>Myth 1: Install Environment</h2>
-<p>&nbsp;</p>
-<p class = "code">install environment:</p> 
-<p class = "code" style="text-indent:100px;">environment == flood</p>
-<p class = "code" style="text-indent:100px;">flood >= buried piles</p>
-<p class = "code" style="text-indent:150px;">from buried piles:</p> 
-<p class = "code" style="text-indent:200px;">out dark</p>
-<p class = "code" style="text-indent:200px;">in light</p>
-<p>&nbsp;</p>
-<p>In the beginning, the world was drowning. The earth had no strength to remain above the water, 
-and its sands collected in piles at the bottom of the sea.</p>
+<h2>Myth 1: Return Language</h2>
 
-<p><s>Start true, in start high start. Low start low true, start true high true end low.</s></p> 
+<p>Sato Gami speak a musical, a priori language called Saga. Rather than use a structure that specifies verbs, objects, 
+subjects, etc., it is based on the structure of input to output. That is, the structure of “Begins with input X, ends in output Y.” 
+Another way to think of it, is that Saga is a language of causality. That is, “reason X, results in cause Y.”</p>
 
-<p>From these piles originated two beings: one was called Sato, and the other Gami.</p>
-<p>&nbsp;</p>
-<p class = "code" style="text-indent:200px;">from (out dark + in light):</p>
-<p class = "code" style="text-indent:250px;">flood <= buried piles</p>
-<p class = "code" style="text-indent:250px;">return buried piles</p>
-<p class = "code" style="text-indent:200px;">return buried piles</p> 
-<p class = "code" style="text-indent:150px;">false</p> 
-<p>&nbsp;</p>
-<p>They lifted the earth upon their backs, and drank from the sea until the water no longer rose above their heads. 
-And once they saved the world from drowning, they collapsed from exhaustion, <s>returning to the world from which they came.</s></p>
+<h3>Vocabulary</h3>
+<p>Saga has a pre-designated list of possible inputs and outputs, expressed in terms of unique frequencies. In addition, each frequency 
+has its own four-beat rhythm, below notated in terms of dots and slashes. Each dot indicates a beat of silence, while each slash indicates 
+a beat of frequency played:</p>
 
-<p><s>Start true high true end low, start true out dark, in light. Out dark, in light, low high low start, high end high start, low end.</s> 
-Out dark, in light, low end end false.</p> 
+<table>
+	<tr>
+		<th>Frequency Meaning</th>
+		<th>Nearest Approximate Human Tone</th>
+		<th>Human Shorthand for Tone</th>
+		<th>Rhythm</th>
+		<th>Sound File</th>
+	</tr>
+	<tr>
+		<td>Start</td>
+		<td>C0</td>
+		<td>Da</td>
+		<td>.../</td>
+		<td><audio controls><source src="da.mp3" type="audio/mpeg"></audio></td>
+	</tr>
+	<tr>
+		<td>In</td>
+		<td>D♭0</td>
+		<td>Ga</td>
+		<td>/../</td>
+		<td><audio controls><source src="ga.mp3" type="audio/mpeg"></audio></td>
+	</tr>	
+	<tr>
+		<td>High</td>
+		<td>E♭0</td>
+		<td>Nu</td>
+		<td>/.//</td>
+		<td><audio controls><source src="nu.mp3" type="audio/mpeg"></audio></td>
+	</tr>	
+	<tr>
+		<td>Light</td>
+		<td>E0</td>
+		<td>Mi</td>
+		<td>////</td>
+		<td><audio controls><source src="mi.mp3" type="audio/mpeg"></audio></td>
+	</tr>	
+	<tr>
+		<td>End</td>
+		<td>G♭0</td>
+		<td>Ju</td>
+		<td>///.</td>
+		<td><audio controls><source src="ju.mp3" type="audio/mpeg"></audio></td>
+	</tr>
+	<tr>
+		<td>Out</td>
+		<td>G0</td>
+		<td>Sa</td>
+		<td>.//.</td>
+		<td><audio controls><source src="sa.mp3" type="audio/mpeg"></audio></td>
+	</tr>
+	<tr>
+		<td>Low</td>
+		<td>A0</td>
+		<td>La</td>
+		<td>./..</td>
+		<td><audio controls><source src="la.mp3" type="audio/mpeg"></audio></td>
+	</tr>
+	<tr>
+		<td>Dark</td>
+		<td>B♭0</td>
+		<td>To</td>
+		<td>No rhythm, sustained for four beats</td>
+		<td><audio controls><source src="to.mp3" type="audio/mpeg"></audio></td>
+	</tr>
+	<tr>
+		<td>0 or False</td>
+		<td>Silence</td>
+		<td>0</td>
+		<td>No rhythm, sustained for four beats</td>
+		<td>No audio</td>
+	</tr>
+	<tr>
+		<td>1 or True</td>
+		<td>All frequencies played at once</td>
+		<td>1</td>
+		<td>No rhythm, sustained for four beats</td>
+		<td><audio controls><source src="1.mp3" type="audio/mpeg"></audio></td>
+	</tr>
+</table>
 
-<p>But to remain returned was not the fate of Sato and Gami. Out dark, in light, out in low start, start true low out. 
-Out dark, in light, out in high start, start true out dark in light.</p>
-<p>&nbsp;</p>
-<p class = "code" style="text-indent:100px;">from buried piles:</p>
-<p class = "code" style="text-indent:150px;">low out</p>
-<p class = "code" style="text-indent:100px;">from flood:</p>
-<p class = "code" style="text-indent:150px;">out dark in light</p>
-<p>&nbsp;</p>
-<p><s>From their mixed flesh, originated the trees. And from their mixed blood, originated the mixed forms: the Sato Gami.</s> 
-Out dark in light in <span class="code">end ==</span></p> 
+<p>Words in Saga are constructed by combining two frequencies together in an input-output pair. For example, take the word for the name of the 
+language itself: “Saga” is made up of the two frequencies “sa” and “ga,” meaning “out” and “in.” Directly translated, “Saga” means “begins with out, 
+ends with in.” Within the context of language, the word implies communication--the journey from ignorance to understanding what lies in another’s 
+mind.</p>
 
-<p><s>unreturned.</s></p> 
+<h3>Rhythmic Syntax</h3>
+<p>In Saga, syntax is conveyed through rhythmic structures. The rhythm of a word’s input frequency is layered over the sustained sound of its 
+output frequency. For example, in the word “Saga,” the frequency for “ga” is sustained for four beats, while the rhythm of “sa” is played 
+simultaneously:</p>
+<audio controls><source src="saga.mp3" type="audio/mpeg"></audio>
+<p>Transcribed text notation:</p>
+<p>Input: (Silence) Sa Sa (Silence)</p>
+<p>Output: Gaaaaaaaaaaaaaaaaaa</p>
+<p>In human transcription of Saga, these rhythmic syntaxes are not written out, for the sake of brevity. Since input always precedes output, 
+one can infer the meaning of a transcribed word through order of frequency alone.</p> 
+
+<div style="text-align:right;"><a href="toc.html"><== Back</a></div>
+</body>
+</html>
+
+
+
+
+
+	
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
  
 
-</body>
-</html> 
